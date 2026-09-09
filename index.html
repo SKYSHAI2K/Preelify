@@ -1,27 +1,29 @@
 <!doctype html>
 <html lang="th">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AR Image Scanner</title>
 
-    <!-- A-Frame -->
-    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
-    <!-- MindAR Image Tracking -->
-    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AR Image Scanner</title>
 
-    <style>
-      /* ซ่อน A-Frame canvas ในโหมด admin */
-      body.admin-mode a-scene,
-      body.admin-mode .mindar-ui-overlay {
-        display: none !important;
-      }
-    </style>
-    <script type="module" crossorigin src="./assets/index-CRC9pG1S.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CaFyFdHT.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+  <!-- A-Frame and MindAR for browser-side rendering -->
+  <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
+
+  <style>
+    /* ซ่อน A-Frame canvas ในโหมด admin */
+    body.admin-mode a-scene,
+    body.admin-mode .mindar-ui-overlay {
+      display: none !important;
+    }
+  </style>
+  <script type="module" crossorigin src="./assets/index-BXETWbpn.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-rGv7TlTF.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
 </html>
